@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Responsive Navbar</title>
+  </head>
+  <body>
+    <div class="min-h-screen bg-black text-white text-lg p-12">
+      <nav
+        class="h-20 bg-blue-600 text-black flex justify-between items-center px-10 lg:px-24"
+      >
+        <h1
+          class="text-4xl font-extrabold tracking-wideset bg-gradient-to-r from-red-600 to-black text-transparent bg-clip-text"
+        >
+          L<span class="text-white -m-3 text-yellow-500 font-bold text-6xl"
+            >O</span
+          >GO
+        </h1>
+        <ul class="hidden lg:flex gap-7 semi-bold">
+          <li class="hover:text-grey-900 hover:underline cursor-pointer">
+            home
+          </li>
+          <li class="hover:text-grey-900 hover:underline cursor-pointer">
+            about
+          </li>
+          <li class="hover:text-grey-900 hover:underline cursor-pointer">
+            Blogs
+          </li>
+          <li class="hover:text-grey-900 hover:underline cursor-pointer">
+            my Blog
+          </li>
+          <li class="hover:text-grey-900 hover:underline cursor-pointer">
+            log in
+          </li>
+          <li class="hover:text-grey-900 hover:underline cursor-pointer">
+            sign up
+          </li>
+        </ul>
+        <div class="lg:hidden">
+          <i class="fa-solid fa-bars text-2xl text-grey-900 cursor-pointer"></i>
+        </div>
+      </nav>
+      <section class="mt-20">
+        <h1
+          class="text-center text-4xl md:text-5xl lg:text-6xl font-extrabold mb-16 bg-gradient-to-r from-cyan-400 to blue-500 text-transparent bg-clip-text"
+        >
+          Automotive Universe
+        </h1>
+        <div class="flex flex-col md:flex-row items-center gap-12">
+          <img
+            src="https://images.unsplash.com/photo-1554294314-80a5fb7e6bd5?q=80&w=698&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="img"
+          />
+          <div class="md:w-1/2">
+            <h2 class="text-3xl md:text-5xl font-bold text-cyan-400 mb-6">
+              autosports
+            </h2>
+            <p class="text-gray-300 text-lg leading-8">
+              Automotive Universe is the one and only platform that we can find
+              the entire sports vehicle like sports bikes,sports
+              cars,madmax,monster trucks etc . every single details of
+              autosports you can find out from here Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio esse dolorum hic doloribus nostrum minus repellat distinctio, vitae exercitationem consequatur pariatur quibusdam dolore ad architecto sint autem suscipit quidem tempora!
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
