@@ -27,7 +27,7 @@ A modern and fully responsive navigation bar built using **Tailwind CSS** and **
 * Unsplash image for demo content
 ![img](./img1.png)
 ![img](./img2.png)
-[link](https://elbineldhose007.github.io/navbar./)
+[link]( https://elbineldhose007.github.io/new-navbar/)
 
 ---
 
